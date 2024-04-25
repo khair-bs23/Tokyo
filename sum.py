@@ -3,9 +3,11 @@
 ## ADDED ISSUES
 
 
-def sum(a, b):
-    return a + b
+def sum(a, b, c):
+    return a + b + c 
+
 
 a = int(input())
 b = int(input())
-sum(a, b)
+c = int(input())
+sum(a, b, c)
